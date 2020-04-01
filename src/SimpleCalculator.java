@@ -1,7 +1,19 @@
-public class SimpleCalculator extends Calculator {
-    public SimpleCalculator(int x, int y) {
-        super(x,y);
-        System.out.println("Simple Calculator Called");
+public class SimpleCalculator implements Calculator {
+
+    public float add(int x, int y) {
+        return x + y;
+    }
+    public float sub(int x, int y) {
+        return x - y;
+    }
+    public float div(int x, int y) {
+        return (float) x / y;
+    }
+    public float mul(int x, int y) {
+        return x * y;
+    }
+    public void clear() {
+        System.out.println("Clearing Memory...");
     }
 
     public void version() {
