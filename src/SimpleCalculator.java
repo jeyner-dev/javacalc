@@ -7,4 +7,12 @@ public class SimpleCalculator extends Calculator {
     public void version() {
         System.out.println("Simple Calculator");
     }
+
+    public void on() {
+        System.out.println("Simple Calculator is now ON...");
+    }
+
+    public void off() {
+        System.out.println("Simple Calculator is now OFF...");
+    }
 }
