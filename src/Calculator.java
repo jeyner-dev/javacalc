@@ -20,7 +20,12 @@ public abstract class Calculator {
     public float mul() {
         return x * y;
     }
+    public void clear() {
+        x = 0;
+        y = 0;
+    }
     public abstract void version();
-
+    public abstract void on();
+    public abstract void off();
 
 }
