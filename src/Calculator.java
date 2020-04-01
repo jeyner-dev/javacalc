@@ -1,4 +1,4 @@
-public class Calculator {
+public abstract class Calculator {
     private int x;
     private int y;
 
@@ -20,7 +20,7 @@ public class Calculator {
     public float mul() {
         return x * y;
     }
-    public void version() {
-        System.out.println("Base Calculator");
-    }
+    public abstract void version();
+
+
 }
